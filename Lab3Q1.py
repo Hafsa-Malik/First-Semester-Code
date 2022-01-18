@@ -1,0 +1,9 @@
+number_1=input("enter value1:")
+number_2=input("enter value2:")
+x=number_1
+y=number_2
+print("Before swapping x=",x)
+print("Before swapping y=",y)
+x,y=y,x
+print("After swapping x=",y)
+print("After swapping y=",x)
